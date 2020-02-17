@@ -3,6 +3,7 @@ require 'pry'
 
 
 def reverse_each_word (string)
+  binding.pry
   new_string = string.split
   new_array = []
   new_string.collect do |i|
